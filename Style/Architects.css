@@ -86,3 +86,13 @@
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+/* responsive - navbar and banner */
+@media screen and (max-width: 576px) {
+    .navbar,
+    .nav-links{
+        flex-direction: column;
+    }
+}
+
+
