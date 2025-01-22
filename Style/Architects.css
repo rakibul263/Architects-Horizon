@@ -1,0 +1,88 @@
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.display-flex{
+    display: flex;
+}
+
+/* .navbar-banner-width{
+    width: 90rem;
+    margin: auto;
+} */
+
+.background-color {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* navbar */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
+.brand{
+    font-size: 2.2rem;
+    color: #23411C;
+}
+
+.dark-color{
+    color: #727272;
+}
+.primary-color{
+    color: #005A8F;
+}
+
+/* banner part */
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner-contant{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+.btn-primary{
+    padding: 21px 25px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 4rem;
+    transition: 1s;
+}
+.btn-primary:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(87, 59, 43, 0.4);
+}
+.btn-primary a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
+.banner-description{
+    font-size: 1rem;
+}
+.banner-image{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
